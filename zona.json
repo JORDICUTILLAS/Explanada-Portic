@@ -1,0 +1,24 @@
+{
+	 "ZONAS": [
+		{
+			"ZONA":"A1",
+			"CAPACIDAD":100,
+			"OCUPADAS": 25,
+			"RESERVADAS":3
+
+		},
+		{
+			"ZONA":"A2",
+			"CAPACIDAD":20,
+			"OCUPADAS": 32,
+			"RESERVADAS":6
+		},
+
+		{
+			"ZONA":"A3",
+			"CAPACIDAD":30,
+			"OCUPADAS": 10,
+			"RESERVADAS":6
+		}		
+	]
+}

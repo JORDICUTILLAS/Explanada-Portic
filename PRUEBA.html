@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+     <title>Evaluar una variable que contiene notación JSON</title> 
+     <meta http-equiv="Content-Type" 
+              content="text/html; charset=UTF-8">
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+ </head> 
+ <body> 
+   <h1>Evaluar una variable que contiene notación JSON.</h1> 
+   <input type="button" id="boton1"
+             value="Recuperar datos del JSON" /> <br/>
+   <span style="color:#33CC33; font-size:24px" id="texto"></span>
+   <script type="text/javascript">
+       $(document).ready(function () {
+        $("#boton1").click(function () {         
+               var cad = "Los libros en el archivo JSON son:<br />";
+               var cadena = $.getJSON("zona.json", function (data) {
+                   for (l in data.zonas) {
+                       cad += ("<br />" + 
+                           data.zonas[l].ZONA + " de " +
+                           data.zonas[l].CAPACIDAD + ", " +
+                           data.zonas[l].OCUPADAS + ", " +
+                           data.zonas[l].RESERVADAS + ", " +                         
+                           "<br />");
+                    }
+                   $("#texto").html(cad);
+                   
+                   })
+               })
+               });    
+	</script>  		    		   
+    </body> 
+</html>
