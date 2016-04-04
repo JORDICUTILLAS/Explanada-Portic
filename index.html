@@ -27,7 +27,9 @@
 				<p>3 contenedores, 2 slots disponibles</p>
 				<p class="close" id="close">x</p>
 
-				
+				<table class="table_A1" id="table_A1" style="width:100%">
+					
+				</table>
 
 			</div>
 		</div>
@@ -225,8 +227,7 @@
 				var raiz = Math.round(Math.sqrt(value.CAPACIDAD));
 				var html = ''
 				var contador = 0 ;
-				for (var i=1;  i<=(value.CAPACIDAD); i+=raiz){
-					
+				for (var i=1;  i<=(value.CAPACIDAD); i+=raiz){					
 					html += '<tr>'
 					for(var ii=1;  ii<=(raiz) && contador<(value.CAPACIDAD); ii++) {						
 							contador ++					 
