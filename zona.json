@@ -2,14 +2,14 @@
 	 "ZONAS": [
 		{
 			"ZONA":"A1",
-			"CAPACIDAD":10,
+			"CAPACIDAD":90,
 			"OCUPADAS": 25,
 			"RESERVADAS":3
 
 		},
 		{
 			"ZONA":"A2",
-			"CAPACIDAD":20,
+			"CAPACIDAD":50,
 			"OCUPADAS": 32,
 			"RESERVADAS":6
 		},
