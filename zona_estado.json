@@ -1,0 +1,32 @@
+{
+	 "A1": [
+		{
+			"HUECO": 1,
+			"ESTADO": 1,
+			"CONTENEDOR": "MSKU1234567",
+			"CLIENTE": "Cliente",
+			"ARMADOR": "Armador"
+		},
+		{
+			"HUECO": 2,
+			"ESTADO": 0,
+			"CONTENEDOR": "",
+			"CLIENTE": "",
+			"ARMADOR": ""
+		},
+		{
+			"HUECO": 3,
+			"ESTADO": 2,
+			"CONTENEDOR": "MSKU1234567",
+			"CLIENTE": "Cliente2",
+			"ARMADOR": "Armador2"
+		},
+		{
+			"HUECO": 4,
+			"ESTADO": 0,
+			"CONTENEDOR": "",
+			"CLIENTE": "",
+			"ARMADOR": ""
+		}
+	]
+}

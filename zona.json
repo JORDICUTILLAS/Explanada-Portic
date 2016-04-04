@@ -2,7 +2,7 @@
 	 "ZONAS": [
 		{
 			"ZONA":"A1",
-			"CAPACIDAD":100,
+			"CAPACIDAD":10,
 			"OCUPADAS": 25,
 			"RESERVADAS":3
 
